@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Калькулятор</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="ribbel">
+            <a href="index.html"><img src="webLogo.PNG" width="200" height="100" alt="HTML,JAVASCRIPT,JQUERY,CSS" /></a>
+            <h1>Основы Web-технологий</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li class="menu"><a href="web.html">Web-технологии</a>
+                        <ul class="collapsiblemenu">
+                            <li><a href="html5.html">HTML5</a></li>
+                            <li><a href="css3.html">CSS3</a></li>
+                            <li><a href="javascript.html">JavaScript</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="calc.html">Калькулятор</a></li>
+                    <li><a href="test.html">Тест</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <div class="bigcalcul">
+        <form name="bigcalc">
+            <table>
+                <tr>
+                    <td colspan="5">
+                        <input type="text" name="conclusion" id="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" name="seven" value="seven">7</button>
+                    </td>
+                    <td>
+                        <button type="button" name="eight" value="eight">8</button>
+                    </td>
+                    <td>
+                        <button type="button" name="nine" value="nine">9</button>
+                    </td>
+                    <td>
+                        <button type="button" name="division" value="division">/</button>
+                    </td>
+                    <td>
+                        <button type="button" name="cancel" value="cancel">C</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" name="four" value="four">4</button>
+                    </td>
+                    <td>
+                        <button type="button" name="five" value="five">5</button>
+                    </td>
+                    <td>
+                        <button type="button" name="six" value="six" class="minibutton">6</button>
+                    </td>
+                    <td>
+                        <button type="button" name="multiple" value="multiple">*</button>
+                    </td>
+                    <td>
+                        <button type="button" name="plusorminus" value="plusorminus">±</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" name="one" value="one">1</button>
+                    </td>
+                    <td>
+                        <button type="button" name="two" value="two">2</button>
+                    </td>
+                    <td>
+                        <button type="button" name="three" value="three">3</button>
+                    </td>
+                    <td>
+                        <button type="button" name="minus" value="minus">-</button>
+                    </td>
+                    <td rowspan="2">
+                        <button type="button" name="equally" value="equally" id="bigbutton">=</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="button" name="zero" value="zero" class="longbutton">0</button>
+                    </td>
+                    <td>
+                        <button type="button" name="dot" value="dot" class="minibutton">.</button>
+                    </td>
+                    <td>
+                        <button type="button" name="plus" value="plus" class="minibutton">+</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <footer class="ribbel" id="ribbel">
+        <address>
+            <a href="mailto:mail@mail">Пишите:mail@mail</a>
+         </address>
+        <span>
+            &copy;Фамилия И.О.,год
+        </span>
+    </footer>
+    <script src="calc.js"></script>
+</body>
+
+</html>
